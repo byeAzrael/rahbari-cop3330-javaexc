@@ -1,0 +1,17 @@
+@startuml
+start
+
+repeat
+
+  :TAKE INPUT;
+
+  :     ADD TO TOTAL    ;
+
+  backward:COUNTER++;
+
+repeat while (COUNTER == 5 ?) is (           NO)
+
+->YES;
+
+stop
+@enduml
